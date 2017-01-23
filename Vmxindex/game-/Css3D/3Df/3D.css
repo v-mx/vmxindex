@@ -1,0 +1,316 @@
+body{
+	margin: 0;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+.per2{
+	perspective: 90000px;
+	/*outline: 40px black solid;*/
+	width: 100vw;
+	height: 600px;
+	margin: 320px auto 100px;
+	transform-origin: 50% 0;
+	/*transform: rotateY(0deg);*/
+	/*padding: 50px 0 50px 0;*/
+}
+
+.stytle2{
+	transform-style: preserve-3d;
+	width: 300px;
+	height: 300px;
+	border:50px aqua solid;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+	margin: 0 auto;
+	position: relative;
+	-webkit-transform-origin: 50% 50%  250px;
+	-webkit-transform: rotateX(15deg);
+	-webkit-animation: haha2 7s infinite linear 0s;
+}
+.per2 .stytle2 div{
+	background-image: url(../../../img/logo.png) ;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+@-webkit-keyframes haha2{
+	from{
+		transform: rotateX(45deg) rotateZ(0deg);
+		/*transform: rotateZ(0deg);*/
+		/*opacity: 0.5;*/
+		/*background: blue;*/
+	}
+	to{
+		transform: rotateX(45deg) rotateZ(360deg);
+		/*transform: rotateZ(360deg);*/
+		/*opacity: 1;*/
+		/*background: red;*/
+	}
+}
+
+.stytle2 div{
+	opacity: 0.8;
+	/*animation: div 7s infinite linear 0s;*/
+	font-size: 50px;
+	text-align: center;
+	line-height: 300px;
+	border-radius: 50px;
+	width: 300px;
+	height: 300px;
+}
+
+.stytle2 .m21{
+
+	background: teal;
+	transform-origin: 50% 50% ;
+	animation: m21 2s infinite linear 0s;
+	border-radius: 40%;
+}
+
+@keyframes m21{
+	from{
+		transform: rotateZ(0deg);
+
+	}
+	to{
+		transform: rotateZ(360deg);
+
+	}
+}
+
+.m22{
+
+	background: purple;
+	position: absolute;
+	transform-origin: 0 0  ;
+	top: 0;
+	left: 0;
+	transform: rotateY(-135deg) ;
+}
+
+.m23{
+
+	background: yellow;
+	position: absolute;
+	transform-origin: 100% 50% ;
+	top: 0;
+	left: 0;
+	transform: rotateY(135deg);
+}
+
+.m24{
+
+	background: orange;
+	position: absolute;
+	transform-origin: 50% 0 ;
+	top: 0;
+	left: 0;
+	transform: rotateX(135deg);
+}
+
+.m25{
+
+	background: green;
+	position: absolute;
+	transform-origin: 50% 100%  ;
+	top: 0;
+	left: 0;
+	transform: rotateX(-135deg);
+}
+
+.m50{
+
+	background: black;
+	position: absolute;
+	transform-origin: 100% 0 ;
+	top: 0;
+	left: 0;
+	/*要想移动X轴要写在Z轴后面*/
+	transform:   rotateZ(45deg) rotateX(135deg)
+	translateX(150px);
+}
+
+.m51{
+
+	background: black;
+	position: absolute;
+	transform-origin:  0 0;
+	top: 0;
+	left: 0;
+	/*要想移动X轴要写在Z轴后面*/
+	transform:   rotateZ(45deg) rotateY(-135deg)
+	translateY(-150px);
+}
+
+.m52{
+
+	background: black;
+	position: absolute;
+	transform-origin:  0 100% ;
+	top: 0;
+	left: 0;
+	/*要想移动X轴要写在Z轴后面*/
+	transform:   rotateZ(45deg) rotateX(-135deg)
+	translateX(-150px);
+}
+
+.m53{
+
+	background: black;
+	position: absolute;
+	transform-origin:   100% 100%;
+	top: 0;
+	left: 0;
+	/*要想移动X轴要写在Z轴后面*/
+	transform:   rotateZ(45deg) rotateY(135deg)
+	translateY(150px) translateZ(0px) translateX(0px);
+}
+
+
+
+
+.m26{
+
+	background: gold;
+	position: absolute;
+	transform-origin: 50% 0;
+	top: 0;
+	left: 0;
+	/*下面的值要写在动画内部的transform里才能实现移动后自旋转的效果，不是之前发现的坑*/
+	/*transform: translateZ(250px);*/
+	animation: m26 2s infinite linear 0s;
+}
+
+@keyframes m26{
+	from{
+		transform: translateZ(600px) rotateY(0deg) ;
+		/*transform: rotateY(0deg) ;*/
+	}
+	to{
+		transform: translateZ(600px) rotateY(360deg) ;
+		/*transform: rotateY(360deg) ;*/
+	}
+}
+
+.stytle2 .m27{
+	
+	width: 200px;
+	height: 200px;
+	background: gray;
+	position: absolute;
+	transform-origin: 50% 0 400px;
+
+	top: 50px;
+	left: 50px;
+
+	/*transform: translateZ(500px);*/
+	animation: m27 2s infinite linear 0s;
+}
+
+
+@keyframes m27{
+	from{
+		transform: rotateY(0deg) ;
+		/*transform: rotateY(0deg) rotateX(0deg) rotateZ(0deg);*/
+	}
+	to{
+		transform: rotateY(360deg) ;
+		/*transform: rotateY(360deg) rotateX(360deg) rotateZ(360deg);*/
+	}
+}
+
+
+.stytle2 .m28{
+	
+	width: 200px;
+	height: 200px;
+	background: gray;
+	position: absolute;
+	transform-origin:  50% 0 400px;
+
+	top: 50px;
+	left: 50px;
+
+	/*transform: translateZ(500px);*/
+	animation: m28 2s infinite linear 0s;
+}
+
+@keyframes m28{
+	from{
+		transform: rotateY(0deg) ;
+		/*transform: rotateY(0deg) rotateX(0deg) rotateZ(0deg);*/
+	}
+	to{
+		transform: rotateY(-360deg) ;
+		/*transform: rotateY(360deg) rotateX(360deg) rotateZ(360deg);*/
+	}
+}
+
+
+
+
+
+.stytle2 .m29{
+	
+	width: 200px;
+	height: 200px;
+	background: red;
+	position: absolute;
+	transform-origin: 0 50%  125px;
+	top: 50px;
+	left: 50px;
+
+	/*transform: translateZ(500px);*/
+	animation: m29 1.5s infinite linear 0s;
+}
+
+
+@keyframes m29{
+	from{
+		transform: rotateX(0deg) ;
+		/*transform: rotateY(0deg) rotateX(0deg) rotateZ(0deg);*/
+	}
+	to{
+		transform: rotateX(360deg) ;
+		/*transform: rotateY(360deg) rotateX(360deg) rotateZ(360deg);*/
+	}
+}
+
+
+.stytle2 .m30{
+	
+	width: 200px;
+	height: 200px;
+	background: blue;
+	position: absolute;
+	transform-origin:  0 50%  125px;
+
+	top: 50px;
+	left: 50px;
+
+	/*transform: translateZ(500px);*/
+	animation: m30 1.5s infinite linear 0s;
+}
+
+@keyframes m30{
+	from{
+		transform: rotateX(0deg) ;
+		/*transform: rotateY(0deg) rotateX(0deg) rotateZ(0deg);*/
+	}
+	to{
+		transform: rotateX(-360deg) ;
+		/*transform: rotateY(360deg) rotateX(360deg) rotateZ(360deg);*/
+	}
+}
+
+

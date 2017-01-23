@@ -1,0 +1,269 @@
+header {
+  height: 620px;
+}
+header .lunbo-wrap2 {
+  z-index: 2;
+  background: url("../img/train/train-banner.jpg") center no-repeat;
+  background-size: cover;
+}
+header .lunbo-wrap2 .slogan-wrapper {
+  z-index: 10;
+}
+section .bd {
+  width: 1100px;
+}
+.accessible {
+  position: relative;
+  z-index: 30;
+}
+.accessible .bd.why-choose-us {
+  overflow: hidden;
+  height: 160px;
+  position: relative;
+  top: -160px;
+  background-color: #fff;
+  margin-bottom: -85px;
+  z-index: 30;
+  text-align: center;
+}
+.accessible .bd.why-choose-us .title {
+  font-size: 40px;
+}
+.accessible .pocket .title {
+  font-size: 35px;
+  margin-top: 0;
+  text-align: center;
+}
+.accessible .pocket .desc {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.accessible .pocket .bg {
+  height: 237px;
+  margin: 60px auto 120px;
+  background: url("../img/train/train-reasons.png") center no-repeat;
+}
+.right {
+  width: 50%;
+}
+.right .title,
+.right .desc {
+  text-align: left;
+  font-size: 35px;
+}
+.left {
+  width: 50%;
+}
+.left .title,
+.left .desc {
+  text-align: right;
+  font-size: 35px;
+}
+.influence-personality {
+  background-color: #fafafa;
+  overflow: hidden;
+}
+.influence-personality .icon {
+  display: inline-block;
+}
+.influence-personality .influence {
+  padding-top: 90px;
+}
+.influence-personality .influence .half-column:first-child {
+  padding-right: 5%;
+  text-align: right;
+}
+.influence-personality .influence .half-column:first-child .icon-best-school {
+  background: url("../img/sprite.png");
+  background-position: 0 -5209px;
+  width: 297px;
+  height: 358px;
+}
+.influence-personality .influence .half-column:last-child {
+  padding-left: 5%;
+  text-align: left;
+  float: left;
+}
+.influence-personality .influence .half-column:last-child .title {
+  font-size: 35px;
+}
+.influence-personality .customized-school {
+  padding-top: 90px;
+}
+.influence-personality .customized-school .half-column:first-child {
+  padding-right: 5%;
+}
+.influence-personality .customized-school .half-column:first-child .title {
+  font-size: 35px;
+}
+.influence-personality .customized-school .half-column:last-child {
+  padding-left: 5%;
+}
+.influence-personality .customized-school .half-column:last-child .icon-excellent-course {
+  background: url("../img/sprite.png");
+  background-position: 0 -5567px;
+  width: 460px;
+  height: 380px;
+}
+.benefit {
+  padding: 150px 0;
+  background-color: #FFF;
+  overflow: hidden;
+}
+.benefit .icon {
+  display: inline-block;
+}
+.benefit .regions .half-column:first-child {
+  padding-right: 5%;
+  text-align: right;
+}
+.benefit .regions .half-column:first-child .icon-global-regions {
+  background: url("../img/sprite.png");
+  background-position: 0 -4901px;
+  width: 457px;
+  height: 308px;
+}
+.benefit .regions .half-column:last-child {
+  padding-left: 5%;
+  text-align: left;
+  float: left;
+}
+.benefit .regions .half-column:last-child .title {
+  font-size: 35px;
+}
+.benefit .money {
+  padding-top: 90px;
+}
+.benefit .money .half-column:first-child {
+  padding-right: 5%;
+}
+.benefit .money .half-column:first-child .title {
+  font-size: 35px;
+}
+.benefit .money .half-column:last-child {
+  padding-left: 5%;
+}
+.benefit .money .half-column:last-child .icon-money {
+  background: url("../img/sprite.png");
+  background-position: 0 -4167px;
+  width: 450px;
+  height: 220px;
+}
+.report-consumer-service {
+  background-color: #fafafa;
+  padding: 150px 0 70px;
+}
+.report-consumer-service .icon {
+  display: inline-block;
+}
+.report-consumer-service .consumer-service .left {
+  padding-right: 5%;
+  text-align: left;
+}
+.report-consumer-service .consumer-service .left .title {
+  font-size: 35px;
+}
+.report-consumer-service .consumer-service .half-column:last-child {
+  padding-left: 5%;
+  text-align: left;
+  float: left;
+}
+.report-consumer-service .consumer-service .half-column:last-child .icon {
+  background: url("../img/sprite.png");
+  background-position: 0 -4387px;
+  width: 250px;
+  height: 243px;
+}
+.report-consumer-service .report {
+  margin: 120px auto;
+  padding-right: 5%;
+}
+.report-consumer-service .report .half-column:first-child {
+  padding-right: 5%;
+}
+.report-consumer-service .report .half-column:first-child .icon {
+  background: url("../img/sprite.png");
+  background-position: 0 -4630px;
+  width: 442px;
+  height: 271px;
+}
+.report-consumer-service .report .half-column:last-child {
+  padding-left: 5%;
+  float: left;
+}
+.report-consumer-service .report .half-column:last-child .title {
+  font-size: 35px;
+}
+.report-consumer-service .features .title {
+  margin: 100px auto 50px;
+  font-size: 35px;
+  text-align: center;
+}
+.report-consumer-service .features ul .feature {
+  float: left;
+  width: 25%;
+  margin-bottom: 60px;
+  text-align: center;
+}
+.report-consumer-service .features ul .feature .icon {
+  background: url(../img/sprite.png);
+  width: 48px;
+  height: 48px;
+}
+.report-consumer-service .features ul .feature .icon-feature-1 {
+  background: url(../img/sprite.png);
+  background-position: 0 -878px;
+}
+.report-consumer-service .features ul .feature .icon-feature-2 {
+  background: url(../img/sprite.png);
+  background-position: 0 -782px;
+}
+.report-consumer-service .features ul .feature .icon-feature-3 {
+  background: url(../img/sprite.png);
+  background-position: 0 -734px;
+}
+.report-consumer-service .features ul .feature .icon-live-broadcast {
+  background: url(../img/sprite.png);
+  background-position: 0 -447px;
+}
+.report-consumer-service .features ul .feature .icon-feature-5 {
+  background: url(../img/sprite.png);
+  background-position: 0 -638px;
+}
+.report-consumer-service .features ul .feature .icon-feature-6 {
+  background: url(../img/sprite.png);
+  background-position: 0 -590px;
+}
+.report-consumer-service .features ul .feature .icon-feature-7 {
+  background: url(../img/sprite.png);
+  background-position: 0 -542px;
+}
+.report-consumer-service .features ul .feature .icon-feature-8 {
+  background: url(../img/sprite.png);
+  background-position: 0 -494px;
+}
+.report-consumer-service .features ul .feature .icon-feature-9 {
+  background: url(../img/sprite.png);
+  background-position: 0 -1070px;
+}
+.report-consumer-service .features ul .feature .icon-feature-10 {
+  background: url(../img/sprite.png);
+  background-position: 0 -403px;
+}
+.report-consumer-service .features ul .feature .icon-feature-11 {
+  background: url(../img/sprite.png);
+  background-position: 0 -974px;
+}
+.report-consumer-service .features ul .feature .icon-feature-12 {
+  background: url(../img/sprite.png);
+  background-position: 0 -1022px;
+}
+.report-consumer-service .features ul .feature .icon-feature-13 {
+  background: url(../img/sprite.png);
+  background-position: 0 -926px;
+}
+.report-consumer-service .features ul .feature .icon-feature-14 {
+  background: url(../img/sprite.png);
+  background-position: 0 -830px;
+}
+/*# sourceMappingURL=train.css.map */

@@ -1,0 +1,148 @@
+		*{
+			margin:0;
+			padding:0;
+			box-sizing: border-box;
+		}
+		
+		.wrap{
+			width:100%;
+			height: 600px;
+			position:absolute;
+			top:60px;
+			
+			background-color: #333;
+			overflow: hidden;
+		}
+		.wrap .photo{
+			width:300px;
+			height: 360px;
+			position:absolute;
+			transition: all .6s;
+		}
+		.photo_wrap{
+			width:100%;
+			height: 100%;
+			transform-style: preserve-3d;
+			transform-origin: 0% 50% 0px; 
+			transition: all .6s;
+		}
+		
+		.photo_wrap .side{
+			-webkit-box-sizing: border-box;
+			box-sizing: border-box;
+			width:100%;
+			height: 100%;
+			/*border:20px #00b6e3 solid;*/
+			/*border-bottom-width: 30px ;*/
+			background-color: #fff;
+			position: absolute;
+			top:0;
+			left:0;
+			overflow: hidden;
+			/*旋转背面不可见*/
+			backface-visibility: hidden;
+		}
+		.photo_wrap .side-front .image{
+			width:100%;
+			height: 270px;
+			line-height: 270px;
+			overflow: hidden;
+		}
+	
+		.side-front{
+			/*overflow: hidden;*/
+
+			
+			transform: rotateY(0deg);
+		}
+		.side-front .caption{
+			text-indent: 2em;
+			
+			overflow: hidden;
+			font-size: 16px;
+			height: 50px;
+			line-height: 50px;
+			text-align: center;
+			width: 100%;
+		}
+		.side-back{
+			
+			text-indent: 2em;
+			transform: rotateY(180deg);
+			
+		}	
+		.wrap .side{
+			overflow: auto;
+
+			font-size: 18px;
+			line-height: 24px;
+			width:100%;
+			height: 100%;
+		}		
+		.photo_front .photo_wrap{
+			transform: translate(0,0) rotateY(0deg);
+		}
+		.photo_back .photo_wrap{
+			transform: translate(300px,0) rotateY(180deg);
+		}
+		.photo_center{
+			z-index: 2;
+			/*width:260px;
+			height: 320px;*/
+			position:absolute;
+			left:50%;
+			top:45%;
+			margin-left: -150px;
+			margin-top: -160px;
+		}
+		/*按钮样式*/
+		@font-face {
+          	  font-family: "iconfont";
+			  src: url('../../font/iconfont.woff'); 			
+			}
+		
+		.button{
+			font-family:"iconfont";
+			font-size:16px;
+			font-style:normal;
+			-webkit-font-smoothing: antialiased;
+			-webkit-text-stroke-width: 0.2px;
+			-moz-osx-font-smoothing: grayscale;
+			color:#fff;
+			transition: all 0.5s;
+		}
+		
+		.nav2{
+			width:80%;
+			position:absolute;
+			left:10%;
+			bottom:30px;
+			text-align: center;
+		}
+		/*按钮默认样式*/
+		.current{
+			display: inline-block;
+			width:30px;
+			height: 30px;
+			border-radius: 50%;
+			background:#aaa;
+			border: 2px #FFFFFF solid;
+			z-index: 3;
+			cursor:pointer;
+			text-align: center;
+			line-height: 30px;
+			transform: scale(0.6);
+			transform: all .5s;
+		}
+		
+		/*按钮选中样式*/
+		.active{
+			transform: scale(1);
+		}
+
+		/*翻转样式*/
+		
+		.back{
+			background-color: #555;
+			transform: rotateY(180deg);
+		}
